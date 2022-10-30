@@ -26,8 +26,7 @@ public class NotebookService {
         Random randomTextLetter = new Random();
         String eng = "abcdefghijklmnopqrstuvwxyz";
         String dig = "0123456789";
-        String sum = eng + eng.toLowerCase() +
-                dig;
+        String sum = eng + eng.toLowerCase() + dig;
         char charAt = sum.charAt(randomTextLetter.nextInt(sum.length()));
         return charAt;
     }
